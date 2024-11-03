@@ -11,8 +11,8 @@ graph = {
 
 visited = set()
 queue = deque(['A'])
-shortest_paths = defaultdict(lambda: float('inf'))  # Track shortest paths
-shortest_paths['A'] = 0  # Start node distance is 0
+shortest_paths = defaultdict(lambda: float('inf'))  
+shortest_paths['A'] = 0  
 
 while queue:
     node = queue.popleft()
