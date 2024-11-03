@@ -7,7 +7,7 @@ def safe(r, c):
 
 def solve(r=0):
     global solution
-    if solution:  # Stop if a solution is found
+    if solution: 
         return
     if r == n:
         solution = board[:]
